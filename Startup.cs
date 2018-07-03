@@ -62,11 +62,6 @@ namespace Base
                 }
             });
 
-            // Enable HMR to enable the automatic update of the modifications made in Angular without update the page (F5) or recompile
-            app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-            {
-                HotModuleReplacement = true
-            });
         }
     }
 }
